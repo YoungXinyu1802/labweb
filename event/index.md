@@ -17,7 +17,7 @@ Welcome to **Jennifer's Lab**! 🎉 We're a friendly, inclusive, and supportive 
   {% assign event = site.data.gallery | where: "category", "event" %}
   {% for image in event %}
     <div class="event-gallery-item">
-      <img src="{{ image.src }}" alt="{{ image.caption }}" class="event-gallery-image" loading="lazy" />
+      <img src="{{ image.src | relative_url | uri_escape}}" alt="{{ image.caption }}" class="event-gallery-image" loading="lazy" />
       <div class="gallery-caption">
         <div>{{ image.caption }}</div>
         <div class="caption-details">{{ image.camera }} · {{ image.date }}</div>
