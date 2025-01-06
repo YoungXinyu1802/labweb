@@ -34,7 +34,7 @@ Welcome to **Jennifer's Lab**! 🎉 We're a friendly, inclusive, and supportive 
   {% assign dinners = site.data.gallery | where: "category", "dinner" %}
   {% for image in dinners %}
     <div class="gallery-item">
-      <img src="{{ image.src }}" alt="{{ image.caption }}" class="gallery-image" loading="lazy" />
+      <img src="{{ image.src | relative_url | uri_escape }}" alt="{{ image.caption }}" class="gallery-image" loading="lazy" />
       <div class="gallery-caption">
         <div>{{ image.caption }}</div>
         <div class="caption-details">{{ image.camera }} · {{ image.date }}</div>
@@ -50,7 +50,7 @@ Welcome to **Jennifer's Lab**! 🎉 We're a friendly, inclusive, and supportive 
   {% assign polaroids = site.data.gallery | where: "category", "polaroid" %}
   {% for image in polaroids %}
     <div class="gallery-item">
-      <img src="{{ image.src }}" alt="{{ image.caption }}" class="gallery-image" loading="lazy" />
+      <img src="{{ image.src | relative_url | uri_escape}}" alt="{{ image.caption }}" class="gallery-image" loading="lazy" />
       <div class="gallery-caption">
         <div>{{ image.caption }}</div>
         <div class="caption-details">{{ image.camera }} · {{ image.date }}</div>
