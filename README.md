@@ -5,7 +5,7 @@ Visit **[youngxinyu1802.github.io/labweb](https://youngxinyu1802.github.io/labwe
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
-<!-- ### To-Do List
+### To-Do List
 
 #### **@Lynn Zhao**  
 - [x] Set up the shared GitHub repo.  
@@ -28,4 +28,4 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 
 #### **All Team Members & Jennifer**  
 - [ ] Lab name, Logo, background image
-- [ ] Review and revise the entire website for consistency, accuracy, and quality.   -->
+- [ ] Review and revise the entire website for consistency, accuracy, and quality.  
