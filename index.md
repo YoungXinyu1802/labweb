@@ -1,9 +1,9 @@
 ---
 ---
 
-# YoungXinyu1802's Website
+# **Collaborative Discovery Lab (?) @ Cornell**
 
-An engaging 1-3 sentence description of your lab.
+An **engaging** 1-3 sentence description of your lab.
 
 {% include section.html %}
 
