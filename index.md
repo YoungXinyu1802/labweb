@@ -1,22 +1,22 @@
 ---
 ---
 
-# **Collaborative Discovery Lab (?) @ Cornell**
+# **Collaborative Discovery Lab @ Cornell**
 
-An **engaging** 1-3 sentence description of your lab.
+Scientific exploration can be bottle-necked by the limited data human brain could process. We are interested in enabling machine intelligence to assist human experts, to broaden our understanding of the world.
 
 {% include section.html %}
 
-## Highlights
+## News
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We have been together for 1 semester!
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="event"
+  text="See our events"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,56 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
   link="research"
   title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
   text=text
 %}
