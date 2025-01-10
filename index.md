@@ -11,7 +11,7 @@ Scientific exploration can be bottle-necked by the limited data human brain coul
 
 {% capture text %}
 
-We have been together for 1 semester!
+During the fall semester of 2024, we came together as we share similar passion, vision, and mission. Through the weekly meetings and monthly activities, we got to know each other deeper.
 
 {%
   include button.html
@@ -27,7 +27,7 @@ We have been together for 1 semester!
 {%
   include feature.html
   link="event"
-  title="Building our team"
+  title="2024 Fall: Start of the journey"
   image="/images/event/e1.jpg"
   text=text
 %}
