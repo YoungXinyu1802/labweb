@@ -28,5 +28,6 @@ We have been together for 1 semester!
   include feature.html
   link="event"
   title="Building our team"
+  image=/images/event/e1.jpg
   text=text
 %}
