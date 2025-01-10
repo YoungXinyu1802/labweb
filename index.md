@@ -21,5 +21,3 @@ We have been together for 1 semester!
   flip=true
   style="bare"
 %}
-
-{% endcapture %}
