@@ -23,10 +23,3 @@ We have been together for 1 semester!
 %}
 
 {% endcapture %}
-
-{%
-  include feature.html
-  link="research"
-  title="Our Research"
-  text=text
-%}
