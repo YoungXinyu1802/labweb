@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: Collaborative Discovery Lab @ Cornell
+title: SunLab @ Cornell
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
 header: /images/background.jpg
@@ -11,8 +11,8 @@ links:
 # TODO: check the contact info with jennifer
   email: jjs533@cornell.edu
   google-scholar: https://scholar.google.com/citations?user=TejzmcwAAAAJ&hl=en
-  github: Collaborative Discovery Lab @ Cornell
-  twitter: Collaborative Discovery Lab @ Cornell
+  github: SunLab @ Cornell
+  twitter: SunLab @ Cornell
 
 ### jekyll settings
 
