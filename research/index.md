@@ -7,4 +7,12 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Research
 
-Scientific exploration can be bottle-necked by the limited data human brain could process. We are interested in enabling machine intelligence to assist human experts, to broaden our understanding of the world.
+We are interested in perception, reasoning, and discovery on the purpose of scientific discovery.
+
+## Perception : 2D/3D Vision
+
+
+## Reasoning : Neurosymbolic Modeling
+
+
+## Discovery : Interpretability
